@@ -1,0 +1,22 @@
+[
+  {
+    "userId": "c1f13ee3-2273-4eee-81c2-7617a5bbe056",
+    "username": "Joris",
+    "appLanguage": "DE",
+    "selectedRegion": "ZURICH",
+    "progress": {
+      "learnedItems": [],
+      "topicProgress": {
+        "GESUNDHEIT": {
+          "topic": "GESUNDHEIT",
+          "totalWords": 6,
+          "learnedCount": 0,
+          "learnedTextCount": 0,
+          "learnedAudioCount": 0
+        }
+      },
+      "badges": [],
+      "xp": 0
+    }
+  }
+]

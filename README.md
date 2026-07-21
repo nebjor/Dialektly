@@ -1,9 +1,10 @@
+# Video
+https://github.com/user-attachments/assets/2be190b4-9327-4adc-9ed3-aadca7687b87
+
+
+
 # team03-nullpointerninjas-projekt2-dialektly
 PM2 Team03 NullPointerNinjas 2026 Projekt2 Dialektly
-
-## Pull-Requests
-- [Pull-Request #62](https://github.zhaw.ch/PM2-IT25taWIN-muon-welj-bira/team03-nullpointerninjas-projekt2-dialektly/pull/62)
-- [Pull-Request #47](https://github.zhaw.ch/PM2-IT25taWIN-muon-welj-bira/team03-nullpointerninjas-projekt2-dialektly/pull/47)
 
 ## Table of Contents
 - [Workflow](#workflow)

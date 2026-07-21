@@ -1,0 +1,189 @@
+@startuml uml_domain
+
+skinparam backgroundColor #FAFAFA
+skinparam classBackgroundColor #FFFFFF
+skinparam classBorderColor #555555
+skinparam classHeaderBackgroundColor #4A90D9
+skinparam classFontColor #FFFFFF
+skinparam classFontSize 13
+skinparam classAttributeFontSize 12
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #333333
+skinparam ArrowThickness 1.5
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam linetype ortho
+
+title Domain Model – Dialektly
+
+' ─── Enums ────────────────────────────────────────────────────────────────────
+
+enum AppLanguage {
+  DE
+  EN
+}
+
+enum DialectRegion {
+  ZURICH
+  BERN
+}
+
+enum TopicCategory {
+  ALLTAG
+  EINKAUFEN
+  ARBEIT
+  GESUNDHEIT
+  WOHNEN
+}
+
+enum ExerciseType {
+  TEXT_INPUT
+  AUDIO_TO_TEXT
+  TEXT_TO_VOICE
+}
+
+' ─── Domain classes ───────────────────────────────────────────────────────────
+
+class VocabularyItem {
+  - itemId : UUID
+  - dialectWord : String
+  - standardWord : String
+  - topic : TopicCategory
+  - region : DialectRegion
+  - audioFilePath : String
+  + getTranslation(lang : AppLanguage) : String
+  + getDialectWord() : String
+  + getStandardWord() : String
+  + getTopic() : TopicCategory
+  + getRegion() : DialectRegion
+  + getAudioFilePath() : String
+  + setAudioFilePath(path : String)
+}
+
+interface Exercise {
+  + submitAnswer(answer : String) : boolean
+  + isMastered() : boolean
+  + getItem() : VocabularyItem
+  + getType() : ExerciseType
+}
+
+abstract class AbstractExercise {
+  # item : VocabularyItem
+  # type : ExerciseType
+  - correctCount : int
+  # {abstract} isCorrect(answer : String) : boolean
+  + submitAnswer(answer : String) : boolean
+  + isMastered() : boolean
+  + getItem() : VocabularyItem
+  + getType() : ExerciseType
+  + getCorrectCount() : int
+}
+
+class TextInputExercise {
+  + TextInputExercise(item : VocabularyItem)
+  # isCorrect(answer : String) : boolean
+}
+
+class AudioToTextExercise {
+  + AudioToTextExercise(item : VocabularyItem)
+  # isCorrect(answer : String) : boolean
+}
+
+class LearningSession {
+  - sessionId : UUID
+  - topic : TopicCategory
+  - totalItems : int
+  - queue : Deque<Exercise>
+  - masteredItems : Set<VocabularyItem>
+  + LearningSession(topic, items, type)
+  + getCurrentExercise() : Exercise
+  + submitAnswer(answer : String) : boolean
+  + isCompleted() : boolean
+  + completedRatio() : double
+  + getSessionSummary() : SessionSummary
+  + getMasteredCount() : int
+  + getMasteredItems() : Set<VocabularyItem>
+  + getTotalItems() : int
+  + getTopic() : TopicCategory
+  + getSessionId() : UUID
+}
+
+class SessionSummary {
+  - topic : TopicCategory
+  - totalItems : int
+  - masteredCount : int
+  - correctAnswers : int
+  - wrongAnswers : int
+  + getCompletedRatio() : double
+  + getTopic() : TopicCategory
+  + getTotalItems() : int
+  + getMasteredCount() : int
+}
+
+class User {
+  - userId : UUID
+  - username : String
+  - appLanguage : AppLanguage
+  - selectedRegion : DialectRegion
+  - progress : UserProgress
+  + getProgress() : UserProgress
+  + getUsername() : String
+  + getAppLanguage() : AppLanguage
+  + getSelectedRegion() : DialectRegion
+  + setAppLanguage(lang : AppLanguage)
+  + setSelectedRegion(region : DialectRegion)
+}
+
+class UserProgress {
+  - learnedItems : Set<VocabularyItem>
+  - topicProgress : Map<TopicCategory, TopicProgress>
+  + markLearned(item : VocabularyItem)
+  + isLearned(item : VocabularyItem) : boolean
+  + getOverallPercentage() : double
+  + isCompleted() : boolean
+  + ensureTopicInitialized(topic, totalWords)
+  + getLearnedItems() : Set<VocabularyItem>
+  + getTopicProgress() : Map<TopicCategory, TopicProgress>
+}
+
+class TopicProgress {
+  - topic : TopicCategory
+  - totalWords : int
+  - learnedCount : int
+  + getPercentage() : double
+  + isCompleted() : boolean
+  + incrementLearned()
+  + getTopic() : TopicCategory
+  + getTotalWords() : int
+  + getLearnedCount() : int
+}
+
+' ─── Relations ────────────────────────────────────────────────────────────────
+
+AbstractExercise ..|> Exercise
+TextInputExercise --|> AbstractExercise
+AudioToTextExercise --|> AbstractExercise
+
+AbstractExercise --> VocabularyItem : uses
+VocabularyItem --> TopicCategory
+VocabularyItem --> DialectRegion
+
+LearningSession o--> "0..*" Exercise : queue
+LearningSession --> TopicCategory
+LearningSession ..> ExerciseType : ctor/createExercise
+LearningSession ..> SessionSummary : creates
+
+ExerciseType -[hidden]down- Exercise
+
+Exercise --> ExerciseType : getType()
+AbstractExercise --> ExerciseType : type
+
+User --> AppLanguage
+User --> DialectRegion
+User "1" *--> "1" UserProgress
+UserProgress "1" *--> "0..*" TopicProgress
+UserProgress --> "0..*" VocabularyItem : learnedItems
+TopicProgress --> TopicCategory
+
+@enduml
+

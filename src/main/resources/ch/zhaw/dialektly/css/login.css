@@ -1,0 +1,58 @@
+/* Semi-transparent dropdown */
+.grey-combo .combo-box-base {
+    -fx-background-color: rgba(180, 180, 180, 0.4);
+    -fx-background-radius: 6;
+    -fx-border-color: #aaaaaa;
+    -fx-border-radius: 6;
+}
+
+.grey-combo .combo-box-base:focused,
+.grey-combo .combo-box-base:showing {
+    -fx-background-color: rgba(150, 150, 150, 0.55);
+}
+
+/* Dropdown list */
+.grey-combo .list-view {
+    -fx-background-color: rgba(240, 240, 240, 0.92);
+    -fx-background-radius: 6;
+}
+
+/* Selected item in list — grey instead of blue */
+.grey-combo .list-cell:selected,
+.grey-combo .list-cell:focused:selected {
+    -fx-background-color: rgba(120, 120, 120, 0.5);
+    -fx-text-fill: #111;
+}
+
+.grey-combo .list-cell:hover {
+    -fx-background-color: rgba(150, 150, 150, 0.35);
+}
+
+/* Grey buttons instead of blue */
+.grey-button {
+    -fx-background-color: #888888;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.grey-button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.grey-button:pressed {
+    -fx-background-color: #2a2a2a;
+}
+
+.grey-button:disabled {
+    -fx-background-color: #cccccc;
+    -fx-text-fill: #888888;
+}
+
+/* Global override — all buttons grey on focus/press */
+.button:focused,
+.button:pressed {
+    -fx-background-color: #666666;
+    -fx-text-fill: white;
+}

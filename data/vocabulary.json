@@ -1,0 +1,802 @@
+[
+  {
+    "itemId": "7a4915d9-054c-4ae6-a1a7-8c0748f0c696",
+    "dialectWord": "Grüezi",
+    "standardWord": "Hallo",
+    "topic": "ALLTAG",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/hallo-zh.mp3"
+  },
+  {
+    "itemId": "df9ed8eb-fb24-4cbb-94d9-2bcf9d7fa7ab",
+    "dialectWord": "Grüessech",
+    "standardWord": "Hallo",
+    "topic": "ALLTAG",
+    "region": "BERN",
+    "audioFilePath": "/audio/hallo-be.mp3"
+  },
+  {
+    "itemId": "1b9022a6-2102-4f9f-8b5a-10c99f8aeacd",
+    "dialectWord": "Tschau",
+    "standardWord": "Tschüss",
+    "topic": "ALLTAG",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/alltag/tschau.mp3"
+  },
+  {
+    "itemId": "b37371d9-090f-493d-83bb-c64c9daa79d6",
+    "dialectWord": "Ade",
+    "standardWord": "Tschüss",
+    "topic": "ALLTAG",
+    "region": "BERN",
+    "audioFilePath": "/audio/bern/alltag/ade.mp3"
+  },
+  {
+    "itemId": "2505e3b4-c0be-4e8c-9d14-ad1c6e023366",
+    "dialectWord": "Bueb",
+    "standardWord": "Junge",
+    "topic": "ALLTAG",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/junge-zh.mp3"
+  },
+  {
+    "itemId": "d3193e60-79ee-4ae2-941c-df150a6995f9",
+    "dialectWord": "Gieu",
+    "standardWord": "Junge",
+    "topic": "ALLTAG",
+    "region": "BERN",
+    "audioFilePath": "/audio/junge-be.mp3"
+  },
+  {
+    "itemId": "00eae943-5ac2-4f1e-9384-2a5a1bb25f0e",
+    "dialectWord": "Mäitli",
+    "standardWord": "Mädchen",
+    "topic": "ALLTAG",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/alltag/maeitli.mp3"
+  },
+  {
+    "itemId": "70278793-b7d4-4021-ae04-454882e2aab4",
+    "dialectWord": "Modi",
+    "standardWord": "Mädchen",
+    "topic": "ALLTAG",
+    "region": "BERN",
+    "audioFilePath": "/audio/maedchen-be.mp3"
+  },
+  {
+    "itemId": "3a08de33-9e9e-4d5d-86e1-478786fcf954",
+    "dialectWord": "Wält",
+    "standardWord": "Welt",
+    "topic": "ALLTAG",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/welt-zh.mp3"
+  },
+  {
+    "itemId": "461351fa-1b4a-4319-a79f-06e7ba5ed99c",
+    "dialectWord": "Wäut",
+    "standardWord": "Welt",
+    "topic": "ALLTAG",
+    "region": "BERN",
+    "audioFilePath": "/audio/welt-be.mp3"
+  },
+  {
+    "itemId": "29580d41-8ddb-4d11-ae9f-9fbf7a78ef69",
+    "dialectWord": "nöd",
+    "standardWord": "nicht",
+    "topic": "ALLTAG",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/nicht-zh.mp3"
+  },
+  {
+    "itemId": "2d75aa7d-1ce1-4a26-afe7-58fc99a7464c",
+    "dialectWord": "nid",
+    "standardWord": "nicht",
+    "topic": "ALLTAG",
+    "region": "BERN",
+    "audioFilePath": "/audio/nicht-be.mp3"
+  },
+  {
+    "itemId": "21ab58f4-cfa9-4dec-9359-553f53220914",
+    "dialectWord": "mängisch",
+    "standardWord": "manchmal",
+    "topic": "ALLTAG",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/alltag/maengisch.mp3"
+  },
+  {
+    "itemId": "ac37d052-b8ed-4f44-b493-e21c394a52ab",
+    "dialectWord": "mängmau",
+    "standardWord": "manchmal",
+    "topic": "ALLTAG",
+    "region": "BERN",
+    "audioFilePath": "/audio/manchmal-be.mp3"
+  },
+  {
+    "itemId": "7f14994f-9f9e-42aa-9445-478275bbcab5",
+    "dialectWord": "villicht",
+    "standardWord": "vielleicht",
+    "topic": "ALLTAG",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/vielleicht-zh.mp3"
+  },
+  {
+    "itemId": "76e1eef9-7218-4eb7-873e-62147d940c09",
+    "dialectWord": "äuä",
+    "standardWord": "vielleicht",
+    "topic": "ALLTAG",
+    "region": "BERN",
+    "audioFilePath": "/audio/vielleicht-be.mp3"
+  },
+  {
+    "itemId": "46b8100d-47b3-4702-b86a-65b48a15ddf7",
+    "dialectWord": "Wie gahts?",
+    "standardWord": "Wie geht's?",
+    "topic": "ALLTAG",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/alltag/wie-gahts.mp3"
+  },
+  {
+    "itemId": "ac80d31d-3764-4af6-b9b3-107fb38ca559",
+    "dialectWord": "Wie geit's?",
+    "standardWord": "Wie geht's?",
+    "topic": "ALLTAG",
+    "region": "BERN",
+    "audioFilePath": "/audio/bern/alltag/wie-geit-s.mp3"
+  },
+  {
+    "itemId": "dd090465-3ea2-43ac-ab79-4442c61eeb8d",
+    "dialectWord": "Chind",
+    "standardWord": "Kind",
+    "topic": "ALLTAG",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/kind-zh.mp3"
+  },
+  {
+    "itemId": "9032ae2c-9ec7-4812-a90a-e89fdeb73a37",
+    "dialectWord": "Ching",
+    "standardWord": "Kind",
+    "topic": "ALLTAG",
+    "region": "BERN",
+    "audioFilePath": "/audio/kind-be.mp3"
+  },
+  {
+    "itemId": "ec2e4d64-b16c-4e2c-96f9-8dbe051e3b3e",
+    "dialectWord": "Öpfel",
+    "standardWord": "Apfel",
+    "topic": "EINKAUFEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/apfel-zh.mp3"
+  },
+  {
+    "itemId": "d6029d33-2551-48ad-9c75-ebb0465e3c34",
+    "dialectWord": "Öpfu",
+    "standardWord": "Apfel",
+    "topic": "EINKAUFEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/apfel-be.mp3"
+  },
+  {
+    "itemId": "df7f991c-5f39-40d5-a43d-c8ac98c75ca4",
+    "dialectWord": "verchaufe",
+    "standardWord": "verkaufen",
+    "topic": "EINKAUFEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/verkaufen-zh.mp3"
+  },
+  {
+    "itemId": "cea39ed9-b24f-4e34-acfe-4af657fe93c1",
+    "dialectWord": "verchoufe",
+    "standardWord": "verkaufen",
+    "topic": "EINKAUFEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/verkaufen-be.mp3"
+  },
+  {
+    "itemId": "cbe41f28-01cd-4f8b-a3ad-76108c4fda7f",
+    "dialectWord": "Brötli",
+    "standardWord": "Brötchen",
+    "topic": "EINKAUFEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/einkaufen/broetli.mp3"
+  },
+  {
+    "itemId": "d2e9f9bb-edcc-40ba-8b2e-d271c8d4cee2",
+    "dialectWord": "Mütschli",
+    "standardWord": "Brötchen",
+    "topic": "EINKAUFEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/bern/einkaufen/muetschli.mp3"
+  },
+  {
+    "itemId": "4e6c7d27-07f6-43cd-88ee-817da0e9d045",
+    "dialectWord": "poschte",
+    "standardWord": "einkaufen",
+    "topic": "EINKAUFEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/einkaufen/poschte.mp3"
+  },
+  {
+    "itemId": "9de8ed1d-4355-4376-ab87-1106b4a83b70",
+    "dialectWord": "ichoufe",
+    "standardWord": "einkaufen",
+    "topic": "EINKAUFEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/bern/einkaufen/ichoufe.mp3"
+  },
+  {
+    "itemId": "401683da-ef1b-4a48-b8b6-a64b5d77918d",
+    "dialectWord": "Bütschgi",
+    "standardWord": "Kerngehäuse",
+    "topic": "EINKAUFEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/kerngehaeuse-zh.mp3"
+  },
+  {
+    "itemId": "b02ece2e-a5d0-4baf-88d3-6b8fa86dcc19",
+    "dialectWord": "Gröibschi",
+    "standardWord": "Kerngehäuse",
+    "topic": "EINKAUFEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/kerngehaeuse-be.mp3"
+  },
+  {
+    "itemId": "3aefc32a-3ba5-43eb-bc6e-7aa4b2ab9fe2",
+    "dialectWord": "Zwible",
+    "standardWord": "Zwiebel",
+    "topic": "EINKAUFEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zwiebel-zh.mp3"
+  },
+  {
+    "itemId": "d521e665-c3b1-464d-b478-d7ab33961531",
+    "dialectWord": "Böle",
+    "standardWord": "Zwiebel",
+    "topic": "EINKAUFEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/zwiebel-be.mp3"
+  },
+  {
+    "itemId": "8fa1602e-1b79-485b-ae9d-70a3c18990ef",
+    "dialectWord": "Herdöpfel",
+    "standardWord": "Kartoffel",
+    "topic": "EINKAUFEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/kartoffel-zh.mp3"
+  },
+  {
+    "itemId": "d825a2fa-d93e-47a2-8532-6452f866a9d7",
+    "dialectWord": "Härdöpfu",
+    "standardWord": "Kartoffel",
+    "topic": "EINKAUFEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/kartoffel-be.mp3"
+  },
+  {
+    "itemId": "d9201371-3b89-4c7a-9d2e-281718ac14ad",
+    "dialectWord": "Gäld",
+    "standardWord": "Geld",
+    "topic": "EINKAUFEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/geld-zh.mp3"
+  },
+  {
+    "itemId": "0d035884-1af0-4642-84fc-e9ed50768a94",
+    "dialectWord": "Gäud",
+    "standardWord": "Geld",
+    "topic": "EINKAUFEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/geld-be.mp3"
+  },
+  {
+    "itemId": "7e2eb0ef-203c-4f02-ba23-bd4ed9c8e312",
+    "dialectWord": "Märt",
+    "standardWord": "Markt",
+    "topic": "EINKAUFEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/markt-zh.mp3"
+  },
+  {
+    "itemId": "93bdecc8-fb60-4a19-a61f-838c67f1b699",
+    "dialectWord": "Märit",
+    "standardWord": "Markt",
+    "topic": "EINKAUFEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/markt-be.mp3"
+  },
+  {
+    "itemId": "8f52033c-0631-40cd-8173-c07460377d46",
+    "dialectWord": "chaufe",
+    "standardWord": "kaufen",
+    "topic": "EINKAUFEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/kaufen-zh.mp3"
+  },
+  {
+    "itemId": "f9d89d08-c9be-45fd-b616-37fb9e55930b",
+    "dialectWord": "choufe",
+    "standardWord": "kaufen",
+    "topic": "EINKAUFEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/kaufen-be.mp3"
+  },
+  {
+    "itemId": "24faedb2-bc69-47f1-93f5-108c8ae1935b",
+    "dialectWord": "dänke",
+    "standardWord": "denken",
+    "topic": "ARBEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/arbeit/daenke.mp3"
+  },
+  {
+    "itemId": "c3d37355-5727-4e84-972d-d6e2cded5a39",
+    "dialectWord": "dänge",
+    "standardWord": "denken",
+    "topic": "ARBEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/bern/arbeit/daenge.mp3"
+  },
+  {
+    "itemId": "9ba8a841-c6fe-45a5-b494-6e65fe9ace7d",
+    "dialectWord": "Zimmermaa",
+    "standardWord": "Zimmermann",
+    "topic": "ARBEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zimmermann-zh.mp3"
+  },
+  {
+    "itemId": "04db6f35-d1f1-4a44-a0de-be3d3ff57f6a",
+    "dialectWord": "Spryssemiggu",
+    "standardWord": "Zimmermann",
+    "topic": "ARBEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/zimmermann-be.mp3"
+  },
+  {
+    "itemId": "3a49af43-f927-4ac7-8c86-401ef22bb2b6",
+    "dialectWord": "Fiirabig",
+    "standardWord": "Feierabend",
+    "topic": "ARBEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/feierabend-zh.mp3"
+  },
+  {
+    "itemId": "2155606b-71c6-4392-a84c-00caf422edbf",
+    "dialectWord": "Fiirobe",
+    "standardWord": "Feierabend",
+    "topic": "ARBEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/feierabend-be.mp3"
+  },
+  {
+    "itemId": "ac7502ca-6979-45ce-aea0-7da066af1edc",
+    "dialectWord": "baue",
+    "standardWord": "bauen",
+    "topic": "ARBEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/bauen-zh.mp3"
+  },
+  {
+    "itemId": "d5131be0-7795-4b21-84d2-841c8432c0da",
+    "dialectWord": "boue",
+    "standardWord": "bauen",
+    "topic": "ARBEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/bauen-be.mp3"
+  },
+  {
+    "itemId": "5606ddee-e1d1-4168-b887-55cd05db7e42",
+    "dialectWord": "müehsam",
+    "standardWord": "mühsam",
+    "topic": "ARBEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/muehsam-zh.mp3"
+  },
+  {
+    "itemId": "2dbbd0a4-ba99-4b34-8d9b-7861893b5fb0",
+    "dialectWord": "gnietig",
+    "standardWord": "mühsam",
+    "topic": "ARBEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/muehsam-be.mp3"
+  },
+  {
+    "itemId": "f3bc98fe-72b6-4a83-99e9-face18489af7",
+    "dialectWord": "Wärchstatt",
+    "standardWord": "Werkstatt",
+    "topic": "ARBEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/arbeit/waerchstatt.mp3"
+  },
+  {
+    "itemId": "d355bedf-e069-4044-9f77-e08e1af86fd8",
+    "dialectWord": "Schmitte",
+    "standardWord": "Werkstatt",
+    "topic": "ARBEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/bern/arbeit/schmitte.mp3"
+  },
+  {
+    "itemId": "67c90ed1-0b0d-4298-8894-edde731ec411",
+    "dialectWord": "Chund",
+    "standardWord": "Kunde",
+    "topic": "ARBEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/kunde-zh.mp3"
+  },
+  {
+    "itemId": "2de1002d-3459-4f58-81ca-714dbff9bd6c",
+    "dialectWord": "Chung",
+    "standardWord": "Kunde",
+    "topic": "ARBEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/kunde-be.mp3"
+  },
+  {
+    "itemId": "854cb199-2414-4103-825f-ee91c122c44e",
+    "dialectWord": "Unordnig",
+    "standardWord": "Unordnung",
+    "topic": "ARBEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/unordnung-zh.mp3"
+  },
+  {
+    "itemId": "cc78599c-c825-40d2-83e6-2d62425f2298",
+    "dialectWord": "Gnuusch",
+    "standardWord": "Unordnung",
+    "topic": "ARBEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/unordnung-be.mp3"
+  },
+  {
+    "itemId": "20c4aeda-2bae-448d-8369-9839f711ee09",
+    "dialectWord": "finde",
+    "standardWord": "finden",
+    "topic": "ARBEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/finden-zh.mp3"
+  },
+  {
+    "itemId": "9a5cc4c5-6ffc-43b2-a107-013c5d8c1938",
+    "dialectWord": "finge",
+    "standardWord": "finden",
+    "topic": "ARBEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/finden-be.mp3"
+  },
+  {
+    "itemId": "c3408ece-c62a-4ff7-bdf3-0d97f3eea093",
+    "dialectWord": "aafange",
+    "standardWord": "anfangen",
+    "topic": "ARBEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/anfangen-zh.mp3"
+  },
+  {
+    "itemId": "e2799d37-ada6-4b98-9d05-07c28c215ba3",
+    "dialectWord": "aafa",
+    "standardWord": "anfangen",
+    "topic": "ARBEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/anfangen-be.mp3"
+  },
+  {
+    "itemId": "d443b30e-cff6-46e4-aa96-2ce3058ce3b6",
+    "dialectWord": "gsund",
+    "standardWord": "gesund",
+    "topic": "GESUNDHEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/gesund-zh.mp3"
+  },
+  {
+    "itemId": "b3e17f6b-2a83-48d0-8de6-6f0814083f52",
+    "dialectWord": "gsung",
+    "standardWord": "gesund",
+    "topic": "GESUNDHEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/gesund-be.mp3"
+  },
+  {
+    "itemId": "f1b1a2a3-e126-4ae8-a67b-ea79da9699ee",
+    "dialectWord": "Hitzgi",
+    "standardWord": "Schluckauf",
+    "topic": "GESUNDHEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/gesundheit/hitzgi.mp3"
+  },
+  {
+    "itemId": "45139cd5-49fc-44ff-a755-1960b6d7ea11",
+    "dialectWord": "Gluggsi",
+    "standardWord": "Schluckauf",
+    "topic": "GESUNDHEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/schluckauf-be.mp3"
+  },
+  {
+    "itemId": "3d0967b5-622b-49ad-b26d-d244cd35537e",
+    "dialectWord": "chalt",
+    "standardWord": "kalt",
+    "topic": "GESUNDHEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/kalt-zh.mp3"
+  },
+  {
+    "itemId": "6f7e7f92-5b3b-4a9c-9c2b-0e0d325599eb",
+    "dialectWord": "chaut",
+    "standardWord": "kalt",
+    "topic": "GESUNDHEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/kalt-be.mp3"
+  },
+  {
+    "itemId": "538d9cc3-f9f7-4da0-9cfc-5a6363da187e",
+    "dialectWord": "Brülle",
+    "standardWord": "Brille",
+    "topic": "GESUNDHEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/brille-zh.mp3"
+  },
+  {
+    "itemId": "14dce879-dc75-4506-9625-1b061a1df63e",
+    "dialectWord": "Brüuä",
+    "standardWord": "Brille",
+    "topic": "GESUNDHEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/brille-be.mp3"
+  },
+  {
+    "itemId": "d027b41f-477c-4315-97a3-24151cfd4b48",
+    "dialectWord": "schnäll",
+    "standardWord": "schnell",
+    "topic": "GESUNDHEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/schnell-zh.mp3"
+  },
+  {
+    "itemId": "62ca6f1a-5344-4601-88d6-58ac60ba3a70",
+    "dialectWord": "schnäu",
+    "standardWord": "schnell",
+    "topic": "GESUNDHEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/schnell-be.mp3"
+  },
+  {
+    "itemId": "dcad8e84-7700-45a8-a327-182273048d77",
+    "dialectWord": "Gfüel",
+    "standardWord": "Gefühl",
+    "topic": "GESUNDHEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/gesundheit/gfueel.mp3"
+  },
+  {
+    "itemId": "5f743eeb-4410-4446-a8f9-92c8c4389b35",
+    "dialectWord": "Gfüeu",
+    "standardWord": "Gefühl",
+    "topic": "GESUNDHEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/bern/gesundheit/gfueeu.mp3"
+  },
+  {
+    "itemId": "829ac59d-fe59-4f7a-91a8-07051266c23b",
+    "dialectWord": "brüele",
+    "standardWord": "weinen",
+    "topic": "GESUNDHEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/weinen-zh.mp3"
+  },
+  {
+    "itemId": "97eaac31-5709-4d94-bfb1-ca0ea99fada1",
+    "dialectWord": "briegge",
+    "standardWord": "weinen",
+    "topic": "GESUNDHEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/weinen-be.mp3"
+  },
+  {
+    "itemId": "ef4b1f48-9b14-4947-b694-1eba4ea6554a",
+    "dialectWord": "laufe",
+    "standardWord": "laufen",
+    "topic": "GESUNDHEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/gesundheit/laufe.mp3"
+  },
+  {
+    "itemId": "bde531dc-f9ff-4dee-b73c-2e2973571827",
+    "dialectWord": "loufe",
+    "standardWord": "laufen",
+    "topic": "GESUNDHEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/bern/gesundheit/loufe.mp3"
+  },
+  {
+    "itemId": "95cf2f2a-f3d4-4101-8188-36ccff96f4fa",
+    "dialectWord": "Muul",
+    "standardWord": "Mund",
+    "topic": "GESUNDHEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/mund-zh.mp3"
+  },
+  {
+    "itemId": "51e467fb-51bd-446e-94a5-ba619baa5ff0",
+    "dialectWord": "Mung",
+    "standardWord": "Mund",
+    "topic": "GESUNDHEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/mund-be.mp3"
+  },
+  {
+    "itemId": "ea01c44d-afd2-4ecc-8fe7-c9a82e262c13",
+    "dialectWord": "verbinde",
+    "standardWord": "verbinden",
+    "topic": "GESUNDHEIT",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/gesundheit/verbinde.mp3"
+  },
+  {
+    "itemId": "29a1b614-f8a1-48ae-b467-c40d14acb7e9",
+    "dialectWord": "verbinge",
+    "standardWord": "verbinden",
+    "topic": "GESUNDHEIT",
+    "region": "BERN",
+    "audioFilePath": "/audio/bern/gesundheit/verbinge.mp3"
+  },
+  {
+    "itemId": "1e00dc11-3ecb-401e-88dc-0410399d532e",
+    "dialectWord": "Blätz",
+    "standardWord": "Lappen",
+    "topic": "WOHNEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/lappen-zh.mp3"
+  },
+  {
+    "itemId": "f4f63c2c-9840-4ed7-8967-55d194c2d0f8",
+    "dialectWord": "Hudu",
+    "standardWord": "Lappen",
+    "topic": "WOHNEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/lappen-be.mp3"
+  },
+  {
+    "itemId": "5e4122ac-cb7e-4bdf-9d2a-8172b3a40779",
+    "dialectWord": "Fäld",
+    "standardWord": "Feld",
+    "topic": "WOHNEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/feld-zh.mp3"
+  },
+  {
+    "itemId": "adf6b7c5-f5dd-4d14-b33b-e922917cbc2e",
+    "dialectWord": "Fäud",
+    "standardWord": "Feld",
+    "topic": "WOHNEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/feld-be.mp3"
+  },
+  {
+    "itemId": "053d9af6-32cc-4a90-84ef-17edf95c1960",
+    "dialectWord": "Garette",
+    "standardWord": "Schubkarre",
+    "topic": "WOHNEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/wohnen/garette.mp3"
+  },
+  {
+    "itemId": "5536cc42-ad03-4e5f-b6de-8f14eb4183ce",
+    "dialectWord": "Bäre",
+    "standardWord": "Schubkarre",
+    "topic": "WOHNEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/bern/wohnen/baere.mp3"
+  },
+  {
+    "itemId": "46b26fe9-a4ac-4361-b628-eee030a809fe",
+    "dialectWord": "Duurzug",
+    "standardWord": "Durchzug",
+    "topic": "WOHNEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/durchzug-zh.mp3"
+  },
+  {
+    "itemId": "78754a12-b5db-4af0-ad39-f91798c4a668",
+    "dialectWord": "Dürzug",
+    "standardWord": "Durchzug",
+    "topic": "WOHNEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/durchzug-be.mp3"
+  },
+  {
+    "itemId": "ea01e959-375c-4c21-a146-51cdd04d62a1",
+    "dialectWord": "Stund",
+    "standardWord": "Stunde",
+    "topic": "WOHNEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/stunde-zh.mp3"
+  },
+  {
+    "itemId": "2a91dd1f-c97c-44cc-9621-9eebe0727c91",
+    "dialectWord": "Stung",
+    "standardWord": "Stunde",
+    "topic": "WOHNEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/stunde-be.mp3"
+  },
+  {
+    "itemId": "471590b4-2644-4ea6-9735-19a9e0293bd3",
+    "dialectWord": "telefoniere",
+    "standardWord": "telefonieren",
+    "topic": "WOHNEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/telefonieren-zh.mp3"
+  },
+  {
+    "itemId": "777ff3eb-0105-44f5-993c-69fef5f283c4",
+    "dialectWord": "kable",
+    "standardWord": "telefonieren",
+    "topic": "WOHNEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/telefonieren-be.mp3"
+  },
+  {
+    "itemId": "98f6d275-876a-431b-be57-fe4b513901df",
+    "dialectWord": "Fernbedienig",
+    "standardWord": "Fernbedienung",
+    "topic": "WOHNEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/fernbedienung-zh.mp3"
+  },
+  {
+    "itemId": "948e4a30-8484-43bb-836e-683adf3de949",
+    "dialectWord": "Drücki",
+    "standardWord": "Fernbedienung",
+    "topic": "WOHNEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/fernbedienung-be.mp3"
+  },
+  {
+    "itemId": "5a82abc1-5f21-4d38-8abb-220947ab1e4e",
+    "dialectWord": "Feuffränkler",
+    "standardWord": "Fünffrankenstück",
+    "topic": "WOHNEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/zurich/wohnen/feuffraenkler.mp3"
+  },
+  {
+    "itemId": "f0849d4d-d55f-47cd-80be-719b84de1c67",
+    "dialectWord": "Füflyber",
+    "standardWord": "Fünffrankenstück",
+    "topic": "WOHNEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/bern/wohnen/fueflyber.mp3"
+  },
+  {
+    "itemId": "a4a5921e-6e59-4b19-9858-f18c1747b8af",
+    "dialectWord": "Heiweh",
+    "standardWord": "Heimweh",
+    "topic": "WOHNEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/heimweh-zh.mp3"
+  },
+  {
+    "itemId": "cd9d4a5d-4243-4126-928e-0acc61e6a52d",
+    "dialectWord": "Längizyti",
+    "standardWord": "Heimweh",
+    "topic": "WOHNEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/heimweh-be.mp3"
+  },
+  {
+    "itemId": "21ed5e5c-aebd-442e-9d9e-55db2c0ee3aa",
+    "dialectWord": "Chäller",
+    "standardWord": "Keller",
+    "topic": "WOHNEN",
+    "region": "ZURICH",
+    "audioFilePath": "/audio/keller-zh.mp3"
+  },
+  {
+    "itemId": "bde3a751-3713-441f-9a0a-06ce08c8a3d2",
+    "dialectWord": "Chäuer",
+    "standardWord": "Keller",
+    "topic": "WOHNEN",
+    "region": "BERN",
+    "audioFilePath": "/audio/keller-be.mp3"
+  }
+]

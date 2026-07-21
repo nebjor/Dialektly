@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ch.zhaw.dialektly.presenter.SessionPresenter"
+            style="-fx-background-color: #f5f5f5;">
+
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <VBox.margin>
+                <Insets top="40" bottom="40" left="40" right="40"/>
+            </VBox.margin>
+
+            <Label fx:id="progressLabel" text="0 / 0"
+                   style="-fx-font-size: 13px; -fx-text-fill: #888888;"/>
+
+            <Label fx:id="questionLabel" text="?"
+                   wrapText="true" textAlignment="CENTER"
+                   style="-fx-font-size: 34px; -fx-font-weight: bold; -fx-font-family: sans-serif;"/>
+
+            <Button fx:id="audioPlayButton" text="▶" onAction="#onPlayAudioClicked"
+                    visible="false" managed="false"
+                    style="-fx-font-size: 18px; -fx-background-color: #e0e0e0; -fx-text-fill: black; -fx-background-radius: 20; -fx-padding: 8 24 8 24; -fx-cursor: hand;"/>
+
+            <TextField fx:id="answerField"
+                       promptText="%session.promptAnswer"
+                       maxWidth="300"
+                       style="-fx-font-size: 16px; -fx-padding: 8 12 8 12; -fx-focus-color: #888888; -fx-faint-focus-color: transparent;"/>
+            <Label fx:id="resultLabel"
+                   style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+            <HBox alignment="CENTER" spacing="40" style="-fx-padding: 16;">
+                <Button fx:id="submitButton" text="%session.btnCheck" onAction="#onSubmitClicked"
+                        style="-fx-background-color: #7a7a7a; -fx-text-fill: white; -fx-padding: 8 24 8 24;"/>
+                <Button fx:id="nextButton" text="%session.btnNext" onAction="#onNextClicked"
+                        visible="false" managed="false"
+                        style="-fx-background-color: #7a7a7a; -fx-text-fill: white; -fx-padding: 8 24 8 24;"/>
+            </HBox>
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER" spacing="20"
+              style="-fx-background-color: #e8e8e8; -fx-padding: 12;">
+            <Button text="%common.btnBack" onAction="#onBackClicked" style="-fx-padding: 6 20 6 20;"/>
+            <Button text="%home.btnLogout" onAction="#onLogout" style="-fx-padding: 6 20 6 20;"/>
+            <Button text="%home.btnExit" onAction="#onExit"
+                    style="-fx-padding: 6 20 6 20; -fx-background-color: #c0392b; -fx-text-fill: white;"/>
+        </HBox>
+    </bottom>
+</BorderPane>

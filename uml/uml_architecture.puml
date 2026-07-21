@@ -1,0 +1,42 @@
+@startuml uml_architecture
+
+skinparam backgroundColor #FAFAFA
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam ArrowColor #444444
+skinparam ArrowThickness 1.5
+skinparam rectangle {
+  BorderColor #555555
+  FontSize 13
+}
+
+title Dialektly - Architecture Overview (MVP)
+
+rectangle "**Bootstrap**\nApp · Navigator · Storage" as Bootstrap #FFF7E6
+
+rectangle "**View (FXML)**\nlogin · home · topic\nsession · summary" as View #F0F4FF
+
+rectangle "**Presenter**\nLogin · Home · Topic\nSession · Summary" as Presenter #EDE7F6
+
+rectangle "**Repository**\nUserRepository\nVocabularyRepository" as Repository #DDEEFF
+
+rectangle "**Domain (Model)**\nUser · LearningSession\nVocabularyItem · ..." as Domain #CFE2F3
+
+note right of Domain : Full domain model:\nsee uml_domain.puml
+
+' Layout
+View -[hidden]right- Presenter
+
+' Relationships
+Bootstrap --> View       : loads FXML
+Bootstrap --> Presenter  : creates
+Bootstrap --> Repository : wires
+
+View ..> Presenter : fx:controller
+
+Presenter --> Repository : reads / persists
+Presenter --> Domain     : works on
+
+Repository --> Domain    : holds & loads
+
+@enduml

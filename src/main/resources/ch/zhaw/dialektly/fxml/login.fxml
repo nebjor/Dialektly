@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ch.zhaw.dialektly.presenter.LoginPresenter">
+    <center>
+        <VBox spacing="14" alignment="CENTER">
+            <padding>
+                <Insets top="40" right="40" bottom="40" left="40"/>
+            </padding>
+
+            <ImageView fitHeight="80" preserveRatio="true">
+                <image>
+                    <Image url="@../images/dialektly-logo.png"/>
+                </image>
+            </ImageView>
+
+            <Label text="%login.existingUser" style="-fx-font-weight: bold;"/>
+            <ComboBox fx:id="existingUserSelector" promptText="%login.promptSelect" maxWidth="280"/>
+            <Button fx:id="loginButton" text="%login.btnLogin" onAction="#onLoginClicked" maxWidth="280"/>
+
+            <Separator maxWidth="280"/>
+
+            <Label text="%login.newUser" style="-fx-font-weight: bold;"/>
+            <TextField fx:id="usernameField" promptText="%login.promptUser" maxWidth="280"/>
+            <HBox spacing="14" alignment="CENTER">
+                <ComboBox fx:id="languageSelector" promptText="%login.promptLang"/>
+                <ComboBox fx:id="regionSelector" promptText="%login.promptRegion"/>
+            </HBox>
+            <Button fx:id="registerButton" text="%login.btnRegister" onAction="#onRegisterClicked" maxWidth="280"/>
+            <Label fx:id="registerErrorMessageField" style="-fx-text-fill: red;" maxWidth="280" wrapText="true"/>
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,19 @@
+/* 1. Target the main progress bar container */
+.progress-bar {
+    -fx-accent: #333333;
+}
+
+/* 2. Target the 'track' (the empty background) */
+.progress-bar > .track {
+    -fx-background-color: #E0E0E0;
+    -fx-background-radius: 10px;
+    -fx-background-insets: 0;
+}
+/* 3. Target the 'bar' (the filled progress indicator) */
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(to right, #111111, #555555);
+
+    -fx-background-radius: 10px;
+    -fx-background-insets: 0;
+    -fx-padding: 0.4em;
+}

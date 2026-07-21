@@ -1,0 +1,58 @@
+.topic-tile {
+    -fx-background-color: white;
+    -fx-background-radius: 14;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 2;
+    -fx-border-radius: 14;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-cursor: hand;
+    -fx-content-display: top;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.08), 6, 0, 0, 2);
+    -fx-min-width: 40px;
+    -fx-min-height: 40px;
+    -fx-max-width: Infinity;
+    -fx-max-height: Infinity;
+}
+
+.topic-tile:hover {
+    -fx-border-color: #a0a0a0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.18), 10, 0, 0, 4);
+    -fx-background-color: #f0f0f0;
+}
+
+/* Selected: dark grey instead of red */
+.topic-tile:selected {
+    -fx-border-color: #555555;
+    -fx-text-fill: #222222;
+    -fx-background-color: #e0e0e0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 4);
+}
+
+.topic-tile:selected:hover {
+    -fx-border-color: #333333;
+    -fx-background-color: #d0d0d0;
+}
+
+/* Completed: greyed out instead of green border */
+.topic-tile-completed {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #cccccc;
+    -fx-text-fill: #999999;
+    -fx-opacity: 0.75;
+}
+
+.topic-tile-completed:hover {
+    -fx-border-color: #aaaaaa;
+    -fx-background-color: #e8e8e8;
+    -fx-opacity: 0.9;
+}
+
+.topic-tile-completed:selected {
+    -fx-border-color: #555555;
+    -fx-text-fill: #222222;
+    -fx-background-color: #e0e0e0;
+    -fx-opacity: 1.0;
+}
